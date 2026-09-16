@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Soto Auto Body & Collision</title>
+<style>
+:root{--green:#16833b;--dark:#101412;--light:#f5f7f5}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:#172019;background:var(--light)}
+header{background:#101412;color:white;padding:22px 7%;display:flex;justify-content:space-between;align-items:center;gap:20px;position:sticky;top:0;z-index:5}
+.logo{font-size:25px;font-weight:800}.logo span{color:#25a852}
+nav a{color:white;text-decoration:none;margin-left:22px;font-weight:600}
+.hero{background:linear-gradient(120deg,#101412 55%,#16833b);color:white;padding:95px 7%;min-height:500px;display:flex;align-items:center}
+.hero div{max-width:700px}.tag{color:#62d684;font-weight:700;letter-spacing:1px;text-transform:uppercase}
+h1{font-size:clamp(42px,7vw,72px);margin:12px 0}.hero p{font-size:21px;line-height:1.6;color:#e4e9e5}
+.btn{display:inline-block;background:#20a94e;color:white;text-decoration:none;padding:15px 24px;border-radius:7px;font-weight:800;margin:8px 8px 0 0}.btn.alt{background:white;color:#101412}
+section{padding:70px 7%;max-width:1200px;margin:auto}h2{text-align:center;font-size:38px;margin:0 0 35px}.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}.card{background:white;padding:30px;border-radius:12px;box-shadow:0 5px 22px #00000010;border-top:5px solid var(--green)}.card h3{margin-top:0;font-size:23px}.card p{line-height:1.6;color:#536057}
+.contact{background:#101412;color:white;max-width:none}.contact-inner{max-width:1100px;margin:auto}.contact h2{color:white}.contact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.contact-box{padding:25px;background:#19201c;border-radius:10px}.contact-box strong{display:block;color:#58d17a;margin-bottom:8px}
+footer{background:#080b09;color:#aeb8b0;text-align:center;padding:25px}
+@media(max-width:700px){header{flex-direction:column;align-items:flex-start}nav a{margin:0 12px 0 0}.hero{padding:65px 7%}.cards,.contact-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">Soto Auto <span>Body & Collision</span></div>
+  <nav><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+</header>
+
+<main>
+<section class="hero">
+  <div>
+    <div class="tag">Auto Body & Collision Repair</div>
+    <h1>We Repair. You Drive.</h1>
+    <p>Soto Auto Body & Collision provides professional auto body and collision repair for your vehicle. Contact us today to discuss your repair needs.</p>
+    <a class="btn" href="tel:4242969598">Call 424-296-9598</a>
+    <a class="btn alt" href="mailto:sotoauto24@gmail.com">Request an Estimate</a>
+  </div>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="cards">
+    <div class="card"><h3>Auto Body Repair</h3><p>Professional body repair to restore your vehicle after dents, damage, and everyday accidents.</p></div>
+    <div class="card"><h3>Collision Repair</h3><p>Collision damage repair focused on getting your vehicle back on the road safely and looking its best.</p></div>
+    <div class="card"><h3>Damage Assessment</h3><p>Bring us your vehicle and we can discuss the damage and the repair work it may need.</p></div>
+    <div class="card"><h3>Quality Work</h3><p>We take pride in careful workmanship and helping customers get their vehicles repaired.</p></div>
+  </div>
+</section>
+
+<section id="about">
+  <h2>About Soto Auto Body & Collision</h2>
+  <p style="max-width:800px;margin:auto;text-align:center;font-size:19px;line-height:1.8;color:#536057">
+    Soto Auto Body & Collision is here to help with auto body and collision repair needs. 
+    Call or email us to talk about your vehicle and schedule your repair.
+  </p>
+</section>
+
+<section class="contact" id="contact">
+  <div class="contact-inner">
+    <h2>Contact Us</h2>
+    <div class="contact-grid">
+      <div class="contact-box"><strong>Phone</strong><a style="color:white" href="tel:4242969598">424-296-9598</a></div>
+      <div class="contact-box"><strong>Address</strong>741 Williamson Ave<br>Fullerton, CA 92832</div>
+      <div class="contact-box"><strong>Hours</strong>8:00 AM – 6:00 PM</div>
+    </div>
+    <p style="text-align:center;margin-top:28px"><a class="btn" href="mailto:sotoauto24@gmail.com">sotoauto24@gmail.com</a></p>
+  </div>
+</section>
+</main>
+
+<footer>© 2026 Soto Auto Body & Collision. All rights reserved.</footer>
+</body>
+</html>
